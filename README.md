@@ -13,19 +13,19 @@ vote on the proposals. The following are the front-end and back-end code and usa
 
 ### 🫧 Directory
 
-   ├── backend
-   │ ├── coin.sol
-   │ └── voting.sol
-   └── front
-   ├── img
-   │ └── index.png
-   ├── js
-   │ ├── jquery.js
-   │ ├── main.js
-   │ ├── web3.min.js
-   │ └── web3.min.js.map
-   ├── main.css
-   └── main.html
+*    ├── backend
+*    │ ├── coin.sol
+*    │ └── voting.sol
+*    └── front
+*    ├── img
+*    │ └── index.png
+*    ├── js
+*    │ ├── jquery.js
+*    │ ├── main.js
+*    │ ├── web3.min.js
+*    │ └── web3.min.js.map
+*    ├── main.css
+*    └── main.html
 ---
 
 ### 🖥 Running environment
