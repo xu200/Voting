@@ -13,19 +13,20 @@ vote on the proposals. The following are the front-end and back-end code and usa
 
 ### 🫧 Directory
 
-*    ├── backend
-*    │ ├── coin.sol
-*    │ └── voting.sol
-*    └── front
-*    ├── img
-*    │ └── index.png
-*    ├── js
-*    │ ├── jquery.js
-*    │ ├── main.js
-*    │ ├── web3.min.js
-*    │ └── web3.min.js.map
-*    ├── main.css
-*    └── main.html
+* ├── backend
+* │ ├── coin.sol
+* │ └── voting.sol
+* └── front
+* ├── img
+* │ └── index.png
+* ├── js
+* │ ├── jquery.js
+* │ ├── main.js
+* │ ├── web3.min.js
+* │ └── web3.min.js.map
+* ├── main.css
+* └── main.html
+
 ---
 
 ### 🖥 Running environment
@@ -63,4 +64,21 @@ vote on the proposals. The following are the front-end and back-end code and usa
 ---
 
 ### 📖 UI Display
+
 ![index](https://github.com/xu200/Voting/blob/07e9aaff9d02ff685d8e8daf7d59012e03678a29/front/img/index.png)
+---
+
+### 📖 Technology stack
+
+1. Ethereum blockchain: As the underlying infrastructure, it stores the voting contracts and all related data.
+2. Solidity: The programming language for Ethereum smart contracts, used to implement the logic of voting contracts.
+3. Web3.js: A JavaScript library for interacting with the Ethereum blockchain.
+4. HTML/CSS/JavaScript: front-end technologies for building user interfaces and interacting with smart contracts.
+
+---
+
+### 📺 notice
+
+1. You need to have enough funds in your wallet to create a proposal or take a vote.
+2. Depending on your needs, you can customize the code and user interface to meet specific requirements.
+3. Be sure to treat the contract address and your private key information carefully and keep them secure
