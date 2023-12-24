@@ -13,19 +13,19 @@ vote on the proposals. The following are the front-end and back-end code and usa
 
 ### 🫧 Directory
 
-├── backend
-│ ├── coin.sol
-│ └── voting.sol
-└── front
-├── img
-│ └── index.png
-├── js
-│ ├── jquery.js
-│ ├── main.js
-│ ├── web3.min.js
-│ └── web3.min.js.map
-├── main.css
-└── main.html
+   ├── backend
+   │ ├── coin.sol
+   │ └── voting.sol
+   └── front
+   ├── img
+   │ └── index.png
+   ├── js
+   │ ├── jquery.js
+   │ ├── main.js
+   │ ├── web3.min.js
+   │ └── web3.min.js.map
+   ├── main.css
+   └── main.html
 ---
 
 ### 🖥 Running environment
@@ -63,4 +63,4 @@ vote on the proposals. The following are the front-end and back-end code and usa
 ---
 
 ### 📖 UI Display
-![index]()
+![index](https://github.com/xu200/Voting/blob/07e9aaff9d02ff685d8e8daf7d59012e03678a29/front/img/index.png)
