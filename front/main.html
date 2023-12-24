@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>公共投票平台</title>
+    <script text="text/javascript" src="./js/jquery.js"></script>
+    <script text="text/javascript" src="./js/web3.min.js"></script>
+
+    <script text="text/javascript" src="./js/main.js"></script>
+
+</head>
+
+<body>
+    <h1 name="content">该平台为公开投票平台</h1>
+    <hr>
+    <button id="getTime">查看当前时间戳</button>
+    <hr>
+    <form id="con1">
+        标题 <input type="text" name="title" id="title">
+        <br> <br>
+        内容 <br>
+        <textarea name="content" id="content" cols="30" rows="15"></textarea>
+        <br> <br>
+        截止时间 <input type="text" name="time" id="time">
+        <br> <br>
+        所需费用 <input type="number" name="money1" id="money1">
+        <br> <br>
+        <input type="button" value="新建提案" onclick="sub1()">
+    </form>
+    <hr>
+
+    <form id="con2">
+        提案编号(pid) <input type="text" name="pid" id="pid">
+        <br> <br>
+        所需费用 <input type="text" name="money2" id="money2">
+        <br> <br>
+        <input type="button" value="点击投票" onclick="_doVoting()">
+    </form>
+    <hr>
+
+    <form id="con3">
+        提案编号(pid) <input type="text" name="pid2" id="pid2">
+        <br> <br>
+        <input type="button" value="查看具体信息" onclick="_message()">
+    </form>
+    <hr>
+    <input type="button" id="_trans" name="_trans" value="提取该合约余额至当前外部账户" style="display:block;margin:0 auto"
+        onclick="_trans()">
+
+    <script>
+        $(document).ready(function () {
+            $("#getTime").click(function () {
+                xuqingyao_getBlockTime();
+            });
+        })
+    </script>
+
+</body>
+
+</html>

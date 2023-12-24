@@ -1,0 +1,25 @@
+body {
+    background-color: #2C3E50;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+#con1,
+#con2,
+#con3 {
+    text-align: center;
+    color: bisque;
+}
+#getTime {
+    display: block;
+    margin: 0 auto;
+    color: blueviolet;
+}
+#xqy_trans {
+    display: block;
+    margin: 0 auto;
+    color: blueviolet;
+}
